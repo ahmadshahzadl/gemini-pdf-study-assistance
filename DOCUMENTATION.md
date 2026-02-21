@@ -178,16 +178,16 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGener
 
 **What each import does:**
 
-| Import                        | Purpose                               |
-| ----------------------------- | ------------------------------------- |
-| `streamlit`                   | Creates the web interface             |
-| `os`                          | Accesses environment variables        |
-| `BytesIO`                     | Handles file streams in memory        |
-| `gTTS`                        | Converts text to speech               |
-| `fitz` (PyMuPDF)              | Reads PDF files and extracts text     |
-| `FAISS`                       | Vector database for similarity search |
-| `GoogleGenerativeAIEmbeddings`| Converts text to mathematical vectors |
-| `ChatGoogleGenerativeAI`      | Access to Gemini language model      |
+| Import                         | Purpose                               |
+| ------------------------------ | ------------------------------------- |
+| `streamlit`                    | Creates the web interface             |
+| `os`                           | Accesses environment variables        |
+| `BytesIO`                      | Handles file streams in memory        |
+| `gTTS`                         | Converts text to speech               |
+| `fitz` (PyMuPDF)               | Reads PDF files and extracts text     |
+| `FAISS`                        | Vector database for similarity search |
+| `GoogleGenerativeAIEmbeddings` | Converts text to mathematical vectors |
+| `ChatGoogleGenerativeAI`       | Access to Gemini language model       |
 
 #### 2. API Key Validation
 
@@ -519,13 +519,13 @@ Framework for building applications with language models.
 
 **Core Components:**
 
-| Component           | Purpose                                      |
-| ------------------- | -------------------------------------------- |
+| Component           | Purpose                                         |
+| ------------------- | ----------------------------------------------- |
 | **LLM**             | Language model wrapper (ChatGoogleGenerativeAI) |
-| **Retriever**       | Searches vector store for relevant documents |
-| **Chain**           | Connects components together                 |
-| **Prompt Template** | Template for formatting prompts              |
-| **Document**        | Represents a chunk of text with metadata     |
+| **Retriever**       | Searches vector store for relevant documents    |
+| **Chain**           | Connects components together                    |
+| **Prompt Template** | Template for formatting prompts                 |
+| **Document**        | Represents a chunk of text with metadata        |
 
 **The RetrievalQA Chain:**
 
@@ -545,10 +545,10 @@ How it works:
 
 **What models are used?**
 
-| Model                   | Use Case                   | Cost     | Speed |
-| ----------------------- | -------------------------- | -------- | ----- |
-| `models/embedding-001`  | Converting text to vectors  | Free tier| Fast  |
-| `gemini-1.5-flash`      | Answering questions        | Free tier| Fast  |
+| Model                  | Use Case                   | Cost      | Speed |
+| ---------------------- | -------------------------- | --------- | ----- |
+| `models/embedding-001` | Converting text to vectors | Free tier | Fast  |
+| `gemini-1.5-flash`     | Answering questions        | Free tier | Fast  |
 
 **Pricing:** Free tier available via [Google AI Studio](https://aistudio.google.com/apikey). Rate limits apply; see Google’s current limits.
 
@@ -837,10 +837,10 @@ llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro", google_api_key=api_key)
 
 **Model comparison:**
 
-| Model             | Speed  | Quality   |
-| ----------------- | ------ | --------- |
-| `gemini-1.5-flash`| Fast   | Good      |
-| `gemini-1.5-pro`  | Slower | Excellent |
+| Model              | Speed  | Quality   |
+| ------------------ | ------ | --------- |
+| `gemini-1.5-flash` | Fast   | Good      |
+| `gemini-1.5-pro`   | Slower | Excellent |
 
 ### How to Add Text-to-Speech
 

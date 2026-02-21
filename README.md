@@ -17,14 +17,14 @@ A smart, AI-powered study companion that helps students and learners interact wi
 
 ## 🛠️ Technology Stack
 
-| Technology         | Purpose                                               |
-| ------------------ | ----------------------------------------------------- |
-| **Streamlit**      | Web interface and user interaction                    |
-| **LangChain**      | AI framework for building language model applications |
+| Technology            | Purpose                                                    |
+| --------------------- | ---------------------------------------------------------- |
+| **Streamlit**         | Web interface and user interaction                         |
+| **LangChain**         | AI framework for building language model applications      |
 | **Google Gemini API** | Gemini 1.5 Flash model for answering questions (free tier) |
-| **FAISS**          | Vector database for fast document similarity search   |
-| **PyMuPDF (fitz)** | PDF text extraction                                   |
-| **gTTS**           | Google Text-to-Speech conversion                      |
+| **FAISS**             | Vector database for fast document similarity search        |
+| **PyMuPDF (fitz)**    | PDF text extraction                                        |
+| **gTTS**              | Google Text-to-Speech conversion                           |
 
 ## 📋 Requirements
 
