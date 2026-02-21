@@ -14,6 +14,7 @@ This document explains how the Gemini PDF Study Assistant application works, bre
 6. [Workflow Diagrams](#workflow-diagrams)
 7. [Advanced Features](#advanced-features)
 8. [Customization Guide](#customization-guide)
+9. [Known Limitations](#known-limitations)
 
 ---
 
@@ -147,6 +148,15 @@ api_key = os.getenv("GOOGLE_API_KEY")
 - Keeps secrets out of code
 - Easy to switch between test/production keys
 - Never commit `.env` to version control
+
+---
+
+## Known Limitations
+
+- The app currently expects one uploaded PDF per active processing flow
+- It relies on external Gemini API availability and quota limits
+- Retrieved context is chunk-based and may miss long-range dependencies in complex documents
+- No persistent database is used; processing is session-scoped in Streamlit
 
 ---
 
