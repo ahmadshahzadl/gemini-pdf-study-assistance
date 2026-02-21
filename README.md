@@ -140,6 +140,13 @@ This app uses a lightweight retrieval flow with generation. The system:
 2. Provides that context to the AI
 3. Generates answers based on your document content
 
+## 📌 Current Scope
+
+- Uses Google Gemini API for both embeddings and answer generation
+- Performs retrieval from uploaded PDF content using FAISS
+- Supports question answering, simplified explanations, summaries, and quiz generation
+- Focuses on single-session PDF analysis in a Streamlit interface
+
 ## 🔒 Security & Best Practices
 
 - ✅ API keys are stored in environment variables (never hardcoded)
