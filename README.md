@@ -180,6 +180,13 @@ This app uses a lightweight retrieval flow with generation. The system:
 4. **Modify**: Try changing prompts or document types in the code
 5. **Explore**: Look into LangChain and Google Gemini documentation for advanced features
 
+## 🛣️ Project Roadmap
+
+- [ ] Add source citations in answers (chunk/page references)
+- [ ] Add multi-file upload and cross-document retrieval
+- [ ] Add optional conversation memory across sessions
+- [ ] Add lightweight evaluation prompts for answer quality
+
 ## 🤝 Contributing
 
 Feel free to fork this project and submit pull requests with improvements!
