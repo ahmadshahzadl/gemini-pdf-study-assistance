@@ -191,6 +191,14 @@ This app uses a lightweight retrieval flow with generation. The system:
 
 Feel free to fork this project and submit pull requests with improvements!
 
+## ✅ GitHub Upload Checklist
+
+- [x] Sensitive values moved to `.env` / `.env.example`
+- [x] Dependencies listed in `requirements.txt`
+- [x] Setup and usage instructions documented
+- [x] Technical architecture documented in `DOCUMENTATION.md`
+- [x] Commit history organized with descriptive messages
+
 ## 📄 License
 
 This project is open source and available for educational purposes.
